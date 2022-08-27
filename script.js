@@ -23,4 +23,4 @@ function sendEmail() {
     Subject: "new contact form email",
     Body: "And this is the body",
   }).then((message) => alert(message));
-}
+} 
