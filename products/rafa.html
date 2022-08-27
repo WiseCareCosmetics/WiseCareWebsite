@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" class="css-override">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafa</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="../photos/wise-care-logo2.png" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <style>
+      nav {
+        background-color: var(--third-color);
+      }
+      .accordion {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .accordion-button {
+        background-color: var(--main-background);
+        padding-bottom: 2vh;
+      }
+      .accordion-item h2 button {
+        font-family: var(--content-font);
+        color: var(--text-color);
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .accordion-button:not(.collapsed) {
+        background-color: var(--main-background);
+        border-bottom: solid 0.1px rgba(128, 128, 128, 0.2);
+      }
+      .accordion-button:focus {
+        outline: 0 !important;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+        background-color: var(--main-background);
+      }
+      .accordion-body {
+        background-color: var(--main-background);
+        padding-bottom: 4vh;
+        padding-top: 4vh;
+        font-family: var(--content-font);
+        font-size: 20px;
+        color: var(--text-color);
+        text-align: justify;
+      }
+      .accordion-item {
+        padding-top: 2vh;
+        background-color: var(--main-background);
+      }
+    </style>
+  </head>
+  <body>
+    <!--logo-->
+    <nav class="navbar fixed-top navbar-expand-md shadow-sm">
+      <div class="container nav-content">
+        <a class="navbar-brand" href="index.html">
+          <img
+            id="navlogo"
+            class="nav-logo"
+            src="../photos/wise-care-logo1.png"
+            alt="Wise Care"
+            width="100"
+          />
+        </a>
+        <!--toggler-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--navbar contents-->
+        <div
+          class="collapse navbar-collapse nav-links"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link underline-hover-effect"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link underline-hover-effect active"
+                aria-current="page"
+                href="../products.html"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link underline-hover-effect"
+                aria-current="page"
+                href="../about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link underline-hover-effect"
+                aria-current="page"
+                href="../contact-us.html"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="product-body">
+      <div class="container">
+        <div class="row">
+          <!---->
+          <!---->
+          <!---->
+          <!---->
+
+          <div class="col-md-10 container">
+            <div class="detailed-product-card">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img
+                      src="../photos/products-designs/rafa.jpg"
+                      class="img-fluid rounded-start"
+                      alt="Rafa"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Rafa</h5>
+                      <p class="description">
+                        RAFA is potent analgesic, potent anesthetic,
+                        decongestant & anti-inflammatory, potent anti-fungal,
+                        and potent antimicrobial.
+                      </p>
+                      <p class="card-text">
+
+                        Form: Spray. <br />
+                        Dosage: 2-4 puffs 4-6 times/day. <br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+          </div>
+        </div>
+        <div
+          class="accordion accordion-flush"
+          id="accordionPanelsStayOpenExample"
+        >
+          <div class="accordion-item container">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                Components
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse who-we-are-accordion"
+              aria-labelledby="panelsStayOpen-headingOne"
+            >
+              <div class="accordion-body">
+                <div class="components-div">
+                  <ol>
+                    <li>
+                      <h4>Chamomile extract</h4>
+                      <ul>
+                        <li>Anti-inflammatory</li>
+                        <li>Antioxidant effects</li>
+                        <li>Healing the oral ulcers and gingivitis</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h4>Clove oil</h4>
+                      <ul>
+                        <li>Relieving pain</li>
+                        <li>Treating infections</li>
+                        <li>Potent anesthetic</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h4>Menthol</h4>
+                      <ul>
+                        <li>
+                          Provides a cooling sensation when applied to the skin
+                          or other tissues (such as the tongue, gums, or inside
+                          the cheeks).
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h4>Almond oil</h4>
+                      <ul>
+                        <li>Anti-inflammatory</li>
+                        <li>Anti-oxidant</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h4>Peppermint oil</h4>
+                      <ul>
+                        <li>Have guaranteed antifungal activity</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h4>Anothole</h4>
+                      <ul>
+                        <li>Has antimicrobial affect against bacteria</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h4>D- limonene</h4>
+                      <ul>
+                        <li>Reduce inflammation</li>
+                        <li>Antioxidation effect</li>
+                      </ul>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item container">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                Therapeutic indications
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo"
+            >
+              <div class="accordion-body">
+                <div class="row theraputic-div">
+                  <h4 style="margin-left:-10px ;">All buccal cavity complains:</h5>
+
+                  <ul>
+                    <li>Oral candidiasis</li>
+                    <li>Sore throat</li>
+                    <li>Tonsillitis</li>
+                    <li>Bad breath</li>
+                    <li>Gingivitis</li>
+                    <li>Aphthous ulcer</li>
+                    <li>Relive nasal congestion</li>
+                    <li>
+                      Protect infants during teething from oral infection
+                      diseases
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item container">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                How to use & Dosage
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree"
+            >
+              <div class="accordion-body">
+                <div class="row how-to-use-div">
+                  <p>
+                    The bottle contains 60 ml 
+                    2-4 puffs 4-6 times/day,
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 contact-info">
+            <div class="container">
+              <div class="row footer-logo">
+                <img src="../photos/wise-care-logo.png" alt="wise care logo" />
+              </div>
+              <div class="row footer-paragraph">
+                <p>
+                  Wise care Pharmaceutical is a leading Egyptian cosmeceutical company that was established in 2020 with its headquarters located in Mansoura city with the objective of providing high-quality and innovative products at the most appropriate price possible.
+                </p>
+              </div>
+              <div class="row footer-contact-info">
+                <div class="flex">
+                  <span class="material-icons"> phone </span>
+                  <p>01091576234 | 0502507078</p>
+                </div>
+                <div class="flex">
+                  <span class="material-icons"> location_on </span>
+                  <p>٦ شارع المدارس, توريل الجديدة, المنصورة, الدقهليه</p>
+                </div>
+                <div class="flex" style="padding-bottom: 30px">
+                  <span class="material-icons"> email </span>
+                  <a href="mailto:Ahm.gaber22@gmail.com"
+                    >Ahm.gaber22@gmail.com</a
+                  >
+                </div>
+                <div class="flex"><span><img src="https://img.icons8.com/glyph-neue/28/EBEBEB/facebook-new.png"/></span>
+                <a href="https://www.facebook.com/WiseCareCompany/"
+                  >Our facebook page</a
+                ></div>
+                <div class="flex"><span><img src="https://img.icons8.com/glyph-neue/28/EBEBEB/facebook-new.png"/></span>
+                <a href="https://www.facebook.com/WiseCareCompany/"
+                  >Our facebook page</a
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 links">
+            <h1>Links</h1>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../products.html">Products</a></li>
+              <li><a href="../about.html">About</a></li>
+              <li><a href="../contact-us.html">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 products-links">
+            <h1>Products</h1>
+            <ul>
+              <li><a href="max-aveno.html">Max Aveno</a></li>
+              <li><a href="nitara.html">Nitara</a></li>
+              <li><a href="rafa.html">Rafa</a></li>
+              <li><a href="soft-ultra-care.html">Soft Ultra Care</a></li>
+              <li><a href="ultra-care.html">Ultra Care</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 footer-form">
+            <h1>Contact us</h1>
+            <form>
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="firstName" required />
+
+              <label for="emailInfo" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="emailInfo"
+                required
+              />
+
+              <label for="comments" class="form-label"
+                >Comments, questions?</label
+              >
+              <textarea
+                class="form-control"
+                id="comments"
+                rows="5"
+                required
+              ></textarea>
+
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>
