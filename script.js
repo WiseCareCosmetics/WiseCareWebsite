@@ -16,9 +16,9 @@ var typed = new Typed(".auto-type", {
 function sendEmail() {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "abdelrahman.ahmed.mail@gmail.com",
-    Password: "Body#55647#body",
-    To: "abdo.gaming666@gmail.com",
+    Username: "",
+    Password: "",
+    To: "",
     From: document.getElementById("emailInfo").value,
     Subject: "new contact form email",
     Body: "And this is the body",
