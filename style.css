@@ -100,7 +100,6 @@ nav.shrink {
 /*HERO SECTION*/
 .landing-section {
   background-color: var(--glance-background);
-      min-height: 100vh;
 }
 .hero-section {
   padding-top: 180px;
@@ -193,7 +192,7 @@ nav.shrink {
   color: var(--text-color);
   padding-bottom: 3vh;
   letter-spacing: 2px;
-  font-family: var(--header-font);
+  font-family: "Balsamiq Sans", cursive;
 }
 
 .glance .col-md p {
@@ -408,6 +407,14 @@ nav.shrink {
   margin-bottom: 10vh;
   font-size: 24px;
   font-family: var(--content-font);
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+@media screen and (min-width: 768px) {
+  .contact-us-form {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
 }
 
 .contact-us-form h1 {
