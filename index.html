@@ -287,6 +287,15 @@
         backSpeed: 100,
         loop: true,
       });
+      $(document).on("scroll", function () {
+  if ($(document).scrollTop() > 80) {
+    $(".nav-content").addClass("shrink");
+    $("nav").addClass("shrink");
+  } else {
+    $(".nav-content").removeClass("shrink");
+    $("nav").removeClass("shrink");
+  }
+});
     </script>
     <!-- <script>
       $(document).on("scroll", function () {
