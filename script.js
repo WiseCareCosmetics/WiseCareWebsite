@@ -24,3 +24,4 @@ function sendEmail() {
     Body: "And this is the body",
   }).then((message) => alert(message));
 } 
+console.log("hey")
