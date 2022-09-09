@@ -388,7 +388,7 @@ nav.shrink {
 }
 @media screen and (min-width: 990px) {
   .contact-contact-info-div {
-    padding-top: 70px;
+    padding-top: 0px;
   }
 }
 
@@ -396,6 +396,7 @@ nav.shrink {
   color: black;
 }
 .contact-contact-info {
+  margin-top:3vh;
 }
 
 .map-responsive iframe {
